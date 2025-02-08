@@ -1,0 +1,8 @@
+try:
+   print("try") 
+   print(10/0) 
+except zerodivisioneError:
+    print("exception captured in except block") 
+finally:
+   print("finally") 
+         
